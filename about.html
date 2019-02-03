@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Make things work -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Give sense to the page -->
+	<meta name="description" content="Why and how Plug-It was created">
+	<meta name="keywords" content="plug-it,pi,about">
+	<meta name="author" content="WiBla">
+	<link rel="icon" href="favicon.ico">
+	<title>Plug-It - About</title>
+	<!-- Load 3rd party stuff -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700">
+	<!-- Load pace in head since we need to render page progress -->
+	<script src="js/pace.min.js"></script>
+</head>
+
+<body>
+	<nav id="menu" class="navbar navbar-expand-sm navbar-dark sticky-top pl-0">
+		<div class="container-fluid">
+			<a class="navbar-brand text-under pr-3" href="index.html">
+				<img src="./img/icon128.png" alt="Plug-It">
+				<p>Plug-It</p>
+			</a>
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+					<li class="nav-item active"><a href="about.html" class="nav-link">About</a></li>
+					<li class="nav-item"><a href="team.html" class="nav-link">The Team</a></li>
+					<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<section class="container-fluid p-4 bg-green">
+		<h1>About Plug-It</h1>
+	</section>
+
+	<section id="history" class="container-fluid text-center p-6">
+		<div class="row">
+			<div class="col-10 offset-1 col-md-6 offset-md-3">
+				<h3>The history</h3>
+				<hr class="border-white">
+				<p>
+					Plug-It started out as a theme that I (WiBla) made for myself.<br>
+					I often shared my progress to others in the community, and some were really interested in using it as well.<br>
+					I then developed a quick way for everyone to load it using a bookmarklet (bookmark script). It was ok, but you had to click it every time and it became tideous after a while..<br>
+					<br>
+					Once I was happy with my theme, I wondered if I could add other features using JavaScript and the provided API. Which I did! The first couple of features included the already famous "Auto-Woot" and Hide Video!<br>
+					Time passed and I was adding features and improving on my theme on a daily basis.<br>
+					After some time, I searched for a way to auto-load the script whenever you would browse plug.dj. The ideal solution were to create a Chrome Extension so I spent time documenting myself on the subject and start creating my own.<br>
+					It is now available for everyone to use!
+					<br>
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="container-fluid text-center p-6 bg-light">
+		<div class="row">
+			<div class="col-10 offset-1 col-md-6 offset-md-3">
+				<h3>It's also a community</h3>
+				<hr class="border-white">
+				<p>
+					Plug-It is made by and for Plug.dj users, I take feedback very seriously and work hard to provide you with the best I can.
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="container-fluid text-center p-6 bg-grey-dark">
+		<div class="row">
+			<div class="col-10 offset-1 col-md-6 offset-md-3">
+				<h3>The goals</h3>
+				<hr class="border-white">
+				<p>
+					Plug-It strives in providing you with customisation as well as moderation features that fits <b>your</b> needs!
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="container-fluid text-center p-6 bg-light">
+		<div class="row">
+			<div class="col-10 offset-1 col-md-6 offset-md-3">
+				<h3>It's open-source!</h3>
+				<hr class="border-white">
+				<p>
+					If you are as curious as I am, you probably want to get a look under the hood and understand how everything works. Or maybe you want to make sure that I don't steal any of your precious data?! In any case, the <a href="https://github.com/Plug-It">Github</a> is here for you!
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="container-fluid text-center text-shadow hero">
+		<h3>Convinced yet?</h3>
+		<p class="font-weight-bold">
+			Then drag this button to your bookmarks and start using PI now!<br>
+			<a id="bookmarklet" class="text-under mt-4" draggable="true" title="Drag me to your bookmarks!" href="javascript:(function(){$.getScript('https://rawgit.com/Plug-It/pi/pre-release/js/pi.js');}());"><img src="./img/icon128.png" alt="Plug-It">Plug-It</a>
+		</p>
+	</section>
+
+	<footer class="container-fluid text-center p-4 bg-grey-dark">
+		<div class="row text-center">
+			<nav class="col-md-3 offset-md-2 mb-4">
+				<h6 class="text-uppercase">Social</h6>
+				<hr class="border-white col-4 col-md-10">
+				<p>
+					<i class="fab fa-discord mr-2"></i>
+					<a target="_blank" href="https://discord.gg/DptCswA">Discord</a>
+					<i class="fa fa-external-link-alt"></i>
+				</p>
+				<p>
+					<i class="fab fa-twitter mr-2"></i>
+					<a target="_blank" href="https://twitter.com/plugit_dj">Twitter</a>
+					<i class="fa fa-external-link-alt"></i>
+				</p>
+				<p>
+					<i class="fas fa-headphones-alt mr-2"></i>
+					<a target="_blank" href="https://plug.dj/plug-it">Plug.dj</a>
+					<i class="fa fa-external-link-alt"></i>
+				</p>
+			</nav>
+			<div class="col-md-3 offset-md-2 mb-4">
+				<h6 class="text-uppercase">Support</h6>
+				<hr class="border-white col-4 col-md-10">
+				<p>
+					<a target="_blank" href="https://crowdin.com/project/plug-it">Help translate</a>
+					<i class="fa fa-external-link-alt"></i>
+				</p>
+				<p>
+					<a target="_blank" href="https://patreon.com/preview/fb70275b49d345ae8cf492ab50e5501f">Become a Donator</a>
+					<i class="fa fa-external-link-alt"></i>
+				</p>
+				<p>
+					<a target="_blank" href="https://github.com/Plug-It/pi/issues">Bug report</a>
+					<i class="fa fa-external-link-alt"></i>
+				</p>
+				<p>
+					<a target="_blank" href="https://trello.com/b/kRqCI5JK/plug-it">Trello</a>
+					<i class="fa fa-external-link-alt"></i>
+				</p>
+			</div>
+		</div>
+
+		<p id="copyright" class="md-12 text-white">&copy Copyright Plug-It 2014 - %%YEAR%%</p>
+	</footer>
+
+	<!-- 3rd party scripts that loads after the DOM is ready -->
+	<!-- NB: I am not using their CDN versions in case there might not be any network available when showing this demo -->
+	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script src="./js/popper.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/fa-all.js"></script>
+	<!-- Our own script -->
+	<script src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+/* TEAM  */
+Web master: WiBla.
+Site: http://wibla.free.fr
+Twitter: @WiBla7
+Mail: contact[at]wibla[dot]gmail[dot]com.
+Location: Strasbourg, France.
+
+/* SITE */
+Last update: 11/27/2018
+Standards: HTML5, CSS3
+Components: Bootstrap, Font-Awesome, jQuery, pace.js
+Software: Sublime Text 3
